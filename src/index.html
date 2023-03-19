@@ -3,25 +3,55 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Portfolio website</title>
+  <title>AndrTech Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
-  <meta name="description" content="TODO: Portfolio website ...">
+  <meta name="description" content="AndrTech, iOS, Programming, Development, Portfolio">
 
   <link rel="stylesheet" href="./stylesheets/main.scss">
+  <script src="https://kit.fontawesome.com/0ecf1ee397.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
-    
-    Portfolio Website
-  </h1>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./images/bigLogo.png" alt="Nav Logo" width="135" height="45" class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse monaco" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item px-2">
+              <a class="btn btn-outline-primary" href="#">About</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="btn btn-outline-primary" href="#">Gallery</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="btn btn-outline-primary" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="bodyMargin">
+    <section id="logoSplash">
+      <div class="d-flex flex-column align-items-center justify-content-center h-100">
+        <div class="text-center">
+          <img src="./images/smallLogo.png" alt="Square AndrTech Logo" class="h-50">
+          <h3 class="mt-3 mb-0">AndrTech Portfolio</h3>
+          <i class="fa-solid fa-arrow-down fa-2x mt-3"></i>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- End of bodyMargin -->
+  </div>
 
   <script type="module" src="./javascripts/main.js"></script>
 </body>

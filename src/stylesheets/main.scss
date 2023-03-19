@@ -1,3 +1,19 @@
 /* Your styles go here */
+
+// THEME COLORS 
+$AndrTechBlue:    #0271F0;
+$AndrTechYellow:  #FFA203;
+
+$primary: $AndrTechBlue;
+$secondary: $AndrTechYellow;
+
+// Imports
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+#logoSplash {
+    background-image: url("/images/blobBackground.svg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
