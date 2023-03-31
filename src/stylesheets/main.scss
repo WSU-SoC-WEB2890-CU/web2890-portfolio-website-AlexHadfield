@@ -34,11 +34,22 @@ $secondary: $AndrTechYellow;
     }
 }
 
+// XL Desktop Down
+@include media-breakpoint-down(xl) {
+    #flipOrder0 {
+        order: 0;
+    }
+
+    #flipOrder1 {
+        order: 1;
+    }
+}
+
 // Large Desktop
 @include media-breakpoint-up(xl) {
     #bodyMargin {
-        margin-left: 5% !important;
-        margin-right: 5% !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
     }
 }
 
