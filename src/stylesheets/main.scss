@@ -57,6 +57,10 @@ $secondary: $AndrTechYellow;
     background-size: cover;
 }
 
+#contactMe {
+    background-color: rgb(253, 145, 10);
+  } 
+
 .dividerContainer {
     width: 100%;
     height: 100%;
@@ -235,3 +239,25 @@ $secondary: $AndrTechYellow;
 .buttonMargin {
     margin-top: 7rem;
 }
+
+#contactBody {
+    margin-top: 8rem;
+}
+
+form {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contactBody .text-start {
+    text-align: center;
+}
+
+#footerLogo {
+    width: 8rem;
+}
+
+footer a {
+    color: white
+}
+  
