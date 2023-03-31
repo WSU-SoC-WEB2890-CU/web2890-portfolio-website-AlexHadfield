@@ -18,6 +18,38 @@ $secondary: $AndrTechYellow;
     }
 }
 
+// Tablet Down
+@include media-breakpoint-down(lg) {
+    #bodyMargin {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+}
+
+// Desktop
+@include media-breakpoint-up(lg) {
+    #bodyMargin {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+}
+
+// Large Desktop
+@include media-breakpoint-up(xl) {
+    #bodyMargin {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+}
+
+// Extra Large Desktop
+@include media-breakpoint-up(xxl) {
+    #bodyMargin {
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+    }
+}
+
 #logoSplash {
     background-image: url("/images/blobBackground.svg");
     height: 100vh;
@@ -34,6 +66,11 @@ $secondary: $AndrTechYellow;
     margin-top: 8rem;
 }
 
+.sectionCard {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .centerDivHorizontally {
     margin-left: auto;
     margin-right: auto;
@@ -41,4 +78,93 @@ $secondary: $AndrTechYellow;
 
 #aboutDevText {
     width: 30rem;
+}
+
+#bodyMargin {
+    margin-right: 15rem;
+    margin-left: 15rem;
+}
+
+.symbol {
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+
+#skillsGrid p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#skillsGrid > div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hobbyGrid > div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hobby1 {
+    background-color: rgb(210, 54, 29);
+}
+
+#hobby2 {
+    background-color: rgb(22, 92, 167);
+}
+
+#hobby3 {
+    background-color: rgb(231, 206, 23);
+}
+
+#hobby4 {
+    background-color: rgb(232, 58, 43);
+}
+
+#hobby5 {
+    background-color: rgb(2023, 22, 122);
+}
+
+#hobby6 {
+    background-color: rgb(195, 90, 37);
+}
+
+#hobby7 {
+    background-color: rgb(73, 134, 41);
+}
+
+#hobby8 {
+    background-color: rgb(59, 94, 124);
+}
+
+#hobby9 {
+    background-color: rgb(229, 196, 63);
+}
+
+#hobby10 {
+    background-color: rgb(56, 173, 112);
+}
+
+#hobby11 {
+    background-color: rgb(6, 48, 105);
+}
+
+#hobby12 {
+    background-color: rgb(80, 0, 94);
+}
+
+#hobby13 {
+    background-color: rgb(58, 8, 190);
+}
+
+#hobby14 {
+    background-color: rgb(11, 102, 255);
+}
+
+#hobby15 {
+    background-color: rgb(147, 187, 43);
+}
+
+#hobby16 {
+    background-color: rgb(26, 67, 35);
 }
