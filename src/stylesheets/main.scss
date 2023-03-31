@@ -57,7 +57,26 @@ $secondary: $AndrTechYellow;
     background-size: cover;
 }
 
+.dividerContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+  
+.dividerWave {
+    width: 100%;
+    height: auto;
+}
+
 #devPhoto {
+    height: 10rem;
+    width: 10rem;
+}
+
+#wfsAppIcon {
     height: 10rem;
     width: 10rem;
 }
@@ -90,6 +109,11 @@ $secondary: $AndrTechYellow;
     margin-bottom: 2rem;
 }
 
+.symbolSmall {
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
 #skillsGrid p {
     margin-top: auto;
     margin-bottom: auto;
@@ -101,6 +125,11 @@ $secondary: $AndrTechYellow;
 }
 
 #hobbyGrid > div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wfsGrid > div{
     margin-left: auto;
     margin-right: auto;
 }
@@ -167,4 +196,29 @@ $secondary: $AndrTechYellow;
 
 #hobby16 {
     background-color: rgb(26, 67, 35);
+}
+
+.scrollingPhotos {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.appImages {
+    white-space: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+}
+
+.appImages img {
+    display: inline-block;
+    width: 15rem;
+    height: auto;
+    margin-right: 10px;
+}
+
+.appStoreButton {
+    margin-left: auto;
+    margin-right: auto;
 }
