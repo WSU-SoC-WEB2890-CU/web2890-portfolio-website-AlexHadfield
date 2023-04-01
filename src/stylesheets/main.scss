@@ -42,7 +42,7 @@ h3 {
 
 // Tablet Down
 @include media-breakpoint-down(lg) {
-    #bodyMargin {
+    .bodyMargin {
         margin-left: 5% !important;
         margin-right: 5% !important;
     }
@@ -50,7 +50,7 @@ h3 {
 
 // Tablet Up
 @include media-breakpoint-up(md) {
-    #bodyMargin {
+    .bodyMargin {
         margin-left: 5% !important;
         margin-right: 5% !important;
     }
@@ -81,7 +81,7 @@ h3 {
 
 // Large Desktop
 @include media-breakpoint-up(xl) {
-    #bodyMargin {
+    .bodyMargin {
         margin-left: 10% !important;
         margin-right: 10% !important;
     }
@@ -89,7 +89,7 @@ h3 {
 
 // Extra Large Desktop
 @include media-breakpoint-up(xxl) {
-    #bodyMargin {
+    .bodyMargin {
         margin-left: 15% !important;
         margin-right: 15% !important;
     }
@@ -144,11 +144,11 @@ h3 {
     margin-right: auto;
 }
 
-#aboutDevText {
+.pText {
     width: 30rem;
 }
 
-#bodyMargin {
+.bodyMargin {
     margin-right: 15rem;
     margin-left: 15rem;
 }
