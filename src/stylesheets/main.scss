@@ -38,6 +38,22 @@ h3 {
     .nav-item {
         width: 100% !important;
     }
+
+    .pText {
+        width: 100% !important;
+        padding: 1rem;
+    }
+
+    #contactBody {
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    #contactForm {
+        width: 90% !important;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 
 // Tablet Down
