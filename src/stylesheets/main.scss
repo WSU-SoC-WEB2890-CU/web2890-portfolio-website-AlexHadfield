@@ -69,6 +69,14 @@ h3 {
     #flipOrder1 {
         order: 1;
     }
+
+    .buttonMargin {
+        margin-top: 1rem !important;
+    }
+
+    .projectImages {
+        width: 100%;
+    }
 }
 
 // Large Desktop
@@ -264,13 +272,17 @@ h3 {
     margin-right: auto;
 }
 
+.appStoreButton svg {
+    width: 10rem;
+}
+
 #measurizeAppiPad {
     width: 60%;
     height: auto;
 }
 
 .projectImages {
-    width: 40%;
+    width: 24rem;
 }
 
 .buttonMargin {
