@@ -318,4 +318,24 @@ footer a {
 #contactForm {
     width: 25rem !important;
 }
+
+.fa-arrow-down {
+    opacity: 0;
+    animation: pulse 2s infinite;
+}
+  
+@keyframes pulse {
+0% {
+    opacity: 0;
+    transform: translateY(0);
+}
+50% {
+    opacity: 1;
+    transform: translateY(-5px);
+}
+100% {
+    opacity: 0;
+    transform: translateY(0);
+}
+}
   
