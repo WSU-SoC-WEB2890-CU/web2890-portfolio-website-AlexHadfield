@@ -11,7 +11,7 @@ $secondary: $AndrTechYellow;
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
-// Tablet
+// Mobile Down
 @include media-breakpoint-down(md) {
     .nav-item {
         width: 100% !important;
@@ -26,11 +26,15 @@ $secondary: $AndrTechYellow;
     }
 }
 
-// Desktop
-@include media-breakpoint-up(lg) {
+// Tablet Up
+@include media-breakpoint-up(md) {
     #bodyMargin {
         margin-left: 5% !important;
         margin-right: 5% !important;
+    }
+
+    #contactForm {
+        width: 40rem !important;
     }
 }
 
@@ -275,5 +279,9 @@ footer a {
 .footerBorder {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
+}
+
+#contactForm {
+    width: 25rem !important;
 }
   
