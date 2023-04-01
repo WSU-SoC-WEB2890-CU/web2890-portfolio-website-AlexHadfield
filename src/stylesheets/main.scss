@@ -60,8 +60,8 @@ h3 {
     }
 }
 
-// XL Desktop Down
-@include media-breakpoint-down(xl) {
+// Desktop Down
+@include media-breakpoint-down(lg) {
     #flipOrder0 {
         order: 0;
     }
@@ -270,7 +270,7 @@ h3 {
 }
 
 .projectImages {
-    width: 35%;
+    width: 40%;
 }
 
 .buttonMargin {
