@@ -11,6 +11,28 @@ $secondary: $AndrTechYellow;
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
+* {
+    font-family: "Avenir Next", "Monaco", sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Monaco", sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Monaco", sans-serif;
+    font-weight: bold;
+}
+
+.monaco, .monaco * {
+    font-family: "Monaco", sans-serif;
+}
+
 // Mobile Down
 @include media-breakpoint-down(md) {
     .nav-item {
