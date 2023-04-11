@@ -95,6 +95,16 @@ h3 {
     }
 }
 
+// Large Up
+@include media-breakpoint-up(md) {
+    #topOfArrow {
+        max-height: 12rem;
+    }
+    #bottomOfArrow {
+        max-height: 10rem;
+    }
+}
+
 // Large Desktop
 @include media-breakpoint-up(xl) {
     .bodyMargin {
@@ -306,7 +316,7 @@ h3 {
 }
 
 #contactBody {
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 
 form {
